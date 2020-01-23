@@ -11,7 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <CudaCompile Include="Hello_World.cu" />
+    <CudaCompile Include="1.Hello_World.cu" />
+    <CudaCompile Include="2.GPUThreadIDX.cu" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1490F3A1-1B9B-4DEB-BAB5-315461F99EA0}</ProjectGuid>

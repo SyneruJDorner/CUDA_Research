@@ -6,7 +6,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <CudaCompile Include="Hello_World.cu">
+    <CudaCompile Include="1.Hello_World.cu">
+      <Filter>Part_1</Filter>
+    </CudaCompile>
+    <CudaCompile Include="2.GPUThreadIDX.cu">
       <Filter>Part_1</Filter>
     </CudaCompile>
   </ItemGroup>

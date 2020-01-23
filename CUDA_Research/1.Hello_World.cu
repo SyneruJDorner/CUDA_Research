@@ -8,6 +8,7 @@ __global__ void hello_cuda()
 	printf("Hello World from CUDA!\n");
 }
 
+/*
 int main()
 {
 	int nx = 16, ny = 4;
@@ -26,3 +27,4 @@ int main()
 	cudaDeviceReset();
 	return 0;
 }
+*/
