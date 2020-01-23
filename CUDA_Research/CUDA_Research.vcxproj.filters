@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Part_1">
+      <UniqueIdentifier>{8da9f9c2-5f3d-4802-a0eb-492ef1e6b9b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="Hello_World.cu">
+      <Filter>Part_1</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
