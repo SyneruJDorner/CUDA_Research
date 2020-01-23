@@ -5,15 +5,17 @@
 
 __global__ void hello_cuda()
 {
-	printf("Hello World from CUDA!");
+	printf("Hello World from CUDA!\n");
 }
 
 int main()
 {
-	//How to call the cuda function
-	//P1 = 
-	//P2 = number of threads to the GPU that is called.
-	hello_cuda <<<1, 1>>>();
+	int nx = 16, ny = 4;
+
+	dim3 block(8, 2); //Number of Dimension 3 blocks/threads within each grid
+	dim3 grid(nx / block.x, ny / block.y); //Number of Dimension 3 grids on the GPU
+
+	hello_cuda <<<grid, block>>>();
 	cudaDeviceSynchronize(); //Call above is async without this function call!
 
 	cudaDeviceReset();
