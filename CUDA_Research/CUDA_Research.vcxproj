@@ -13,6 +13,8 @@
   <ItemGroup>
     <CudaCompile Include="1.Hello_World.cu" />
     <CudaCompile Include="2.GPUThreadIDX.cu" />
+    <CudaCompile Include="3.organization_of_threads.cu" />
+    <CudaCompile Include="4.Exercise_1.cu" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1490F3A1-1B9B-4DEB-BAB5-315461F99EA0}</ProjectGuid>

@@ -10,6 +10,7 @@ __global__ void print_threadIds()
 		threadIdx.x, threadIdx.y, threadIdx.z);
 }
 
+/*
 int main()
 {
 	int nx = 16, ny = 16;
@@ -23,3 +24,4 @@ int main()
 	cudaDeviceReset();
 	return 0;
 }
+*/
