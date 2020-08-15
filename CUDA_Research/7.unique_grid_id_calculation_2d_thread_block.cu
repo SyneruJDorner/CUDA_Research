@@ -18,6 +18,7 @@ __global__ void unique_grid_id_calculation_2d_2d(int* data)
 		blockIdx.x, blockIdx.y, thread_id, grid_id, data[grid_id]);
 }
 
+/*
 int main()
 {
 	int array_size = 16;
@@ -37,3 +38,4 @@ int main()
 	cudaDeviceReset();
 	return 0;
 }
+*/

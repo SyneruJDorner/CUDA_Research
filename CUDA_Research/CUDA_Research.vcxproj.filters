@@ -24,7 +24,10 @@
     <CudaCompile Include="6.index_calculation_for_2D_grid.cu">
       <Filter>Part_1</Filter>
     </CudaCompile>
-    <CudaCompile Include="unique_grid_id_calculation_2d_thread_block.cu">
+    <CudaCompile Include="7.unique_grid_id_calculation_2d_thread_block.cu">
+      <Filter>Part_1</Filter>
+    </CudaCompile>
+    <CudaCompile Include="8.memory_transfer.cu">
       <Filter>Part_1</Filter>
     </CudaCompile>
   </ItemGroup>
