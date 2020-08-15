@@ -8,6 +8,7 @@ __global__ void print_details_exercise()
 		threadIdx.x, threadIdx.y, threadIdx.z, blockIdx.x, blockIdx.y, blockIdx.z, blockDim.x, blockDim.y, gridDim.x, gridDim.y);
 }
 
+/*
 int main()
 {
 	int nx = 4, ny = 4, nz = 4;
@@ -21,3 +22,4 @@ int main()
 	cudaDeviceReset();
 	return 0;
 }
+*/
